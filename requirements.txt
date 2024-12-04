@@ -1,0 +1,8 @@
+matplotlib
+numpy
+pandas
+shiny
+pathlib
+pycountry
+seaborn
+folium
