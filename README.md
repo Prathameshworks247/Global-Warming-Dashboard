@@ -2,7 +2,7 @@
 
 **An Interactive Dashboard for Visualizing Global Warming Trends**  
 
-This Shiny app provides an intuitive interface to explore global warming trends using heatmaps and other visualizations. Users can interactively examine temperature changes, emissions data, and other climate indicators across time and geography.
+This Python Shiny app provides an intuitive interface to explore global warming trends using heatmaps and other visualizations. Users can interactively examine temperature changes, emissions data, and other climate indicators across time and geography.
 
 ---
 
@@ -17,10 +17,10 @@ This Shiny app provides an intuitive interface to explore global warming trends 
 
 ## Technologies Used 🛠️  
 
-- **Frontend**: R Shiny for creating an interactive user interface.  
-- **Data Visualization**: ggplot2, plotly, and leaflet for interactive and static visualizations.  
+- **Frontend**: Python Shiny for creating an interactive user interface.  
+- **Data Visualization**: Plotly and Matplotlib for interactive and static visualizations.  
 - **Data Source**: NASA GISS Surface Temperature Analysis (GISTEMP), NOAA, or similar datasets.  
-- **Backend**: R for data manipulation, statistical computation, and server logic.  
+- **Backend**: Python for data manipulation and server logic.  
 
 ---
 
@@ -29,8 +29,7 @@ This Shiny app provides an intuitive interface to explore global warming trends 
 ### Prerequisites  
 
 Ensure you have the following installed:  
-- R (version 4.0 or later)  
-- RStudio (optional, but recommended)  
-- Required R packages:  
-  ```R  
-  install.packages(c("shiny", "ggplot2", "plotly", "leaflet", "dplyr", "readr"))  
+- Python 3.8 or later  
+- Required Python libraries:  
+  ```bash  
+  pip install shiny plotly pandas matplotlib numpy  
